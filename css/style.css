@@ -23,7 +23,7 @@
     change the --imgcol value 
     to make the filter to your own */
 
-  --imgbg: url(img/booba.png);
+  --imgbg: url(../img/booba.png);
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
@@ -58,6 +58,7 @@ body {
   height: 100vh;
   background-color: var(--bg);
   background-image: var(--imgcol), var(--imgbg);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
