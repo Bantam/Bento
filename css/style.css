@@ -112,10 +112,11 @@ body {
 form {
     width: 100%;
     text-align: center;
+    padding-top:35px;
 }
 
 input[type="search"] {
-    border: 1px solid grey;
+    1px solid var(--sbg);
     background-color: white;
     box-shadow: 0 5px 7px rgb(0 0 0 / 35%);
     border-radius: 5px;
@@ -125,7 +126,7 @@ input[type="search"] {
 }
 
 input[type="submit"] {
-    border: 1px solid grey;
+    1px solid var(--sbg);
     /* background-color: white; */
     box-shadow: 0 5px 7px rgb(0 0 0 / 35%);
     border-radius: 5px;
